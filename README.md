@@ -2,4 +2,4 @@
 
 ESP32_lock.ino
 
-Example of a lock mechanism over JEM-A interfaced electric lock. This uses an MQTT broker and Mqttthing plugin should be used with this example.
+Example of an Apple HomeKit Lock Mechanism for JEM-A interfaced electric lock. This uses MQTT broker (Mosquitto), Homebridge and Mqttthing plugin should be used with this example.
