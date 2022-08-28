@@ -15,7 +15,7 @@ const int JEMA_S=1; //value for the lock is Secure (Locked)
 
 int JEMA_last; //previous value read from JEMAIN. 1:Secure 0:Unsecure
 int JEMA_current() { return(digitalRead(JEMAIN)); } //current JEMAIN value. 
-boolean JEMA_pulsed; //if a pluse has sent to JEMAOUT
+boolean JEMA_pulsed; //if a pluse has been sent to JEMAOUT
 //WiFi
 const char SSID[] = "XXXXXXXX"; //WiFi SSID
 const char PASS[] = "XXXXXXXX"; //WiFi password
